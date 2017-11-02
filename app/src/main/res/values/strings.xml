@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Way2verifyTesting</string>
+    <string name="title_activity_success_screen">SuccessScreenActivity</string>
+</resources>

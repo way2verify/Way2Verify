@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
         loginbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Way2VerifyLib.initialize(MainActivity.this,token,"Your_packagename");
+                Way2VerifyLib.initialize(MainActivity.this,token);
             }
         });
 

@@ -30,10 +30,13 @@ with context and token  as parameters, if you want to use Library's THEME and CO
 here Token is YOUR_TOKEN which you will get once you registered with http://way2verify.com site with your app.
 
 
-Call library's initialize(Context,token,YOUR_LOGO,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR"); in your appliction (i.e, where you want to validate through Way2Verify)
-with context and token  as parameters, if you want to use Custom THEME and COLORs
+Call library's initialize(Context context, String token,int YOUR_LOGO,String "YOUR_THEME_COLOR", String "YOUR_TEXT_COLOR"); in your appliction (i.e, where you want to validate through Way2Verify)
+with context , token,YOUR_LOGO,YOUR_THEME_COLOR and YOUR_TEXT_COLOR   as parameters, if you want to use Custom Theme and Colors
 
-
+here Token is YOUR_TOKEN which you will get once you registered with http://way2verify.com site with your app.
+here YOUR_LOGO is the Image resource id  which you use as logo.
+here YOUR_THEME_COLOR is the theme color which you use in app.
+here YOUR_TEXT_COLOR is the text color which you is apt for Theme color which is used in app.
 
     ```
         Way2VerifyLib.initialize(MainActivity.this,token,R.mipmap.ic_launcher,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR");

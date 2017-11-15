@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/sys1059/.android/build-cache/d91c09315438a9a2771731835984c431d70caea1/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="6b09ab8ff0d51845c28df7fb9abe996cf706045f">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_473419b87ef04f921f3740a62016080f8fb0c12b/classes.dex" />
+        sha1="55e446eebb2323adf575706f186a1ff131e618c6">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/pre-dexed/debug/classes_d581e9d93f553d11b0e97ef001ac7f57c4660184.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sys1059/.android/build-cache/6cfebea66298eb74101c0fe75dfa59d3eaebfc73/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/pre-dexed/debug/classes_da4c6e619b8553d978cddf3cd52fd96b23014e5b.jar" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +27,51 @@
         revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7d94e1abfa7b987e9834fea097a23172be5976eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sys1059/.android/build-cache/fe08741144bd4182b551cb1f462997c043a8c11c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/pre-dexed/debug/classes_35df3ccc7796576ead2dc56242033d90edeabd7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sys1059/.android/build-cache/71c5ea63c0d0ef025faae4485e462438f5a5435a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c794cd6f001ebf421b766f23f7091ca686dbeed8">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/pre-dexed/debug/classes_db680076176283083b34ac0645eecf527203981f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c1abc4d437097c6400f74dd97975da0bd7003247">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_473419b87ef04f921f3740a62016080f8fb0c12b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sys1059/.android/build-cache/c770ad98ddb3f66203b32560daa529154634da43/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/pre-dexed/debug/classes_bd9462c8307ed1bc858bea4adc699beafb0489d8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/sys1059/.android/build-cache/44342e9fa7d09f634a95fe9f501021736e63b99f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43cf105c09a432f9052ab6bd37c2020e3de76e02">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b455fd36e2e115280a127b7148d3d91da27fed2/classes.dex" />
     </item>
 
 </items>

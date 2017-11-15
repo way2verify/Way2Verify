@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import sun.way2online.way2verify.Activities.LoginActivity;
 import sun.way2online.way2verify.Listeners.Way2LoginCallbacks;
 import sun.way2online.way2verify.Way2VerifyLib;
 

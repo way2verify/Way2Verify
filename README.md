@@ -30,7 +30,7 @@ with context and token  as parameters, if you want to use Library's THEME and CO
     ```
 
 
-        here Token is YOUR_TOKEN which you will get once you registered with http://way2verify.com site with your app.
+here Token is YOUR_TOKEN which you will get once you registered with http://way2verify.com site with your app.
 
 
 Call library's initialize(Context context, String token,int YOUR_LOGO,String "YOUR_THEME_COLOR", String "YOUR_TEXT_COLOR"); in your appliction (i.e, where you want to validate through Way2Verify)

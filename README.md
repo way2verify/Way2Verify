@@ -8,9 +8,10 @@
 No need to clone the repository or download any files -- just add this line to your app's build.gradle inside the dependencies section:
 
     ```
-        compile 'sun.way2online.way2verify:way2verify:0.0.44'
+        compile 'sun.way2online.way2verify:way2verify:0.0.45'
     ```
 Note: We recommend that you don't use
+
     ```
         compile 'sun.way2online.way2verify:way2verify:+'
     ```
@@ -28,9 +29,9 @@ with context and token  as parameters, if you want to use Library's THEME and CO
         Way2VerifyLib.initialize(MainActivity.this,token);
     ```
 
-    ```
+
         here Token is YOUR_TOKEN which you will get once you registered with http://way2verify.com site with your app.
-    ```
+
 
 Call library's initialize(Context context, String token,int YOUR_LOGO,String "YOUR_THEME_COLOR", String "YOUR_TEXT_COLOR"); in your appliction (i.e, where you want to validate through Way2Verify)
 with context , token,YOUR_LOGO,YOUR_THEME_COLOR and YOUR_TEXT_COLOR   as parameters, if you want to use Custom Theme and Colors

@@ -21,8 +21,7 @@ public class SuccessScreenActivity extends AppCompatActivity {
         mLogout_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              /*  Way2VerifyLib.logout(SuccessScreenActivity.this);
-                startActivity(new Intent(SuccessScreenActivity.this,MainActivity.class));*/
+                startActivity(new Intent(SuccessScreenActivity.this,MainActivity.class));
             }
         });
 

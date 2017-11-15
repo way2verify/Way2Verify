@@ -35,33 +35,23 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
 
     @Override
     public void onLoginSuccess(String ContryCode, String mobileNum) {
-
-    }
-
-    @Override
-    public void onLoginFailure(String message) {
-
-    }
-
-    @Override
-    public void onCloseClicked(String message) {
-
-    }
-
-
-
-    /*@Override
-    public void onLoginSuccess() {
         Toast.makeText(this, "onLoginSuccess", Toast.LENGTH_SHORT).show();
 
         startActivity(new Intent(this,SuccessScreenActivity.class));
     }
 
     @Override
-    public void onLoginFailure() {
+    public void onLoginFailure(String message) {
         Toast.makeText(this, "onLoginFailure", Toast.LENGTH_SHORT).show();
 
-    }*/
+    }
+
+    @Override
+    public void onCloseClicked(String message) {
+
+            finish();
+    }
+
 
 
 }

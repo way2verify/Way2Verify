@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-import sun.way2online.way2verify.Way2VerifyLib;
+
 
 public class SuccessScreenActivity extends AppCompatActivity {
     Button mLogout_b;
@@ -21,8 +21,8 @@ public class SuccessScreenActivity extends AppCompatActivity {
         mLogout_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Way2VerifyLib.logout(SuccessScreenActivity.this);
-                startActivity(new Intent(SuccessScreenActivity.this,MainActivity.class));
+              /*  Way2VerifyLib.logout(SuccessScreenActivity.this);
+                startActivity(new Intent(SuccessScreenActivity.this,MainActivity.class));*/
             }
         });
 

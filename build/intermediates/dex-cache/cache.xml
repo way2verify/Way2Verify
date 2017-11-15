@@ -3,165 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/3e9c13f44164bbf37a330c4bde40794cb0e489bd/output/jars/classes.jar"
+        jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d15221927a0f8d3b4f5f4d844f85b962ff0b25f8/classes.dex" />
+        sha1="6b09ab8ff0d51845c28df7fb9abe996cf706045f">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_473419b87ef04f921f3740a62016080f8fb0c12b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/3a2c7b7f65acb696d7a010ab3aab024ad7ef0fb7/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55b0d58a1ad16ffa1ad593e2a561bf7244e282a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/6cfebea66298eb74101c0fe75dfa59d3eaebfc73/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da4c6e619b8553d978cddf3cd52fd96b23014e5b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/969e1b1c7af96d703624abbc73f30a9114d27f83/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="90095b555b72205db6f9b93aca3cb9978d1e3344">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c4278edc9554d7d029f0ba63d3f4b41bdb497f3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.8.5/c752630a2421ba1a8d41e2c2bfae705a6eb1119c/libphonenumber-8.8.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c752630a2421ba1a8d41e2c2bfae705a6eb1119c">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/libphonenumber-8.8.5_ad389b1607cb6c4006c0d54e9c68b850503082db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_576cb4eb662f9abe6ea2e446a1707b366579124c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/fe08741144bd4182b551cb1f462997c043a8c11c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35df3ccc7796576ead2dc56242033d90edeabd7d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/5b7d35a6d94b98e581a0ddca882b636a8d62cdea/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d4ba7399a1a4f5c998b5ce4f6bf33a2e8347820c">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b6d16c96a73192ee0c5cba8c55eed2e1e31ea388/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/5610e7d095223d38835156a0b4ff635b76b2e9f9/output/jars/libs/sun.misc.BASE64Decoder.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2ce82c44dff33530a6399041e5bea62f2a679452">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/sun.misc.BASE64Decoder_fac4eab60df1587a9d47bb94e8b4db7545b34ada/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/477443c330a20ca6dd423cc88dad72da47e7e58b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2fa4bed8a1213a783ee394e58924fdc1aedc298a">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6287e02999188bdb01e20ea9effbd9561c5cc98a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/5610e7d095223d38835156a0b4ff635b76b2e9f9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a1864a7768c74e931503b1e6f6906ab821ecf31b">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9054de574274cb234bce9845d9566694f8234fdf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/46a040be1bfd101ffa843d837dcbfa6dd1724d2c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1eb2bae4143ae4bbfb4872a4412bf0ebfae5879d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/android-studio/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_8cf1fdb99128bb48211b6f9feee854be2ec9a1bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/c770ad98ddb3f66203b32560daa529154634da43/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd9462c8307ed1bc858bea4adc699beafb0489d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cb681e3da0d6f72c2c87c9e2588fd2293f29475b">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_272f6b469855d444cf3d9518e4ea54a221d6e461/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_3727b4e8a872c5c92067e28b8ee7ec0a0fdb0071/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.android/build-cache/8b312c8bffbfd034f20dbe9e232510ccd1c36903/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6678390b666bbca3f4e3141c168b958488d5bfc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sys1059/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2verifyTesting/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_b44a6c34d3eb8d5d647010381bcb6074ec1f33f6/classes.dex" />
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7d94e1abfa7b987e9834fea097a23172be5976eb/classes.dex" />
     </item>
 
 </items>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sun.way2online.way2verify:way2verify-0.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5610e7d095223d38835156a0b4ff635b76b2e9f9/output/jars/libs/sun.misc.BASE64Decoder.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5610e7d095223d38835156a0b4ff635b76b2e9f9/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/5610e7d095223d38835156a0b4ff635b76b2e9f9/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/sun.way2online.way2verify/way2verify/0.0.2/c998bcc8668e8c2c67682632463ae59552c37c15/way2verify-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

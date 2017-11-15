@@ -10,6 +10,7 @@ import android.widget.Toast;
 import sun.way2online.way2verify.Listeners.Way2LoginCallbacks;
 import sun.way2online.way2verify.Way2VerifyLib;
 
+
 public class MainActivity extends AppCompatActivity implements Way2LoginCallbacks {
 
     Button loginbutton;
@@ -22,16 +23,34 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
         loginbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Way2VerifyLib.initialize(MainActivity.this,token);
+               // Appfile app = new Appfile(MainActivity.this);
+               // app.onLoginFailure();
+                Way2VerifyLib.initialize(MainActivity.this,token,R.mipmap.ic_launcher,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
+               // Way2VerifyLib.initialize(MainActivity.this,token);
             }
         });
 
 
     }
 
+    @Override
+    public void onLoginSuccess(String ContryCode, String mobileNum) {
 
+    }
 
     @Override
+    public void onLoginFailure(String message) {
+
+    }
+
+    @Override
+    public void onCloseClicked(String message) {
+
+    }
+
+
+
+    /*@Override
     public void onLoginSuccess() {
         Toast.makeText(this, "onLoginSuccess", Toast.LENGTH_SHORT).show();
 
@@ -42,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
     public void onLoginFailure() {
         Toast.makeText(this, "onLoginFailure", Toast.LENGTH_SHORT).show();
 
-    }
+    }*/
 
 
 }

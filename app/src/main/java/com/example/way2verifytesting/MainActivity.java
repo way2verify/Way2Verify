@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
             public void onClick(View v) {
                // Appfile app = new Appfile(MainActivity.this);
                // app.onLoginFailure();
-                Way2VerifyLib.initialize(MainActivity.this,token,R.mipmap.ic_launcher,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
+                Way2VerifyLib.initialize(getApplicationContext(),token,R.mipmap.ic_launcher,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
                // Way2VerifyLib.initialize(MainActivity.this,token);
             }
         });
@@ -50,7 +50,11 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
     @Override
     public void onCloseClicked(String message) {
 
-            finish();
+            try {
+                finish();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
     }
 
 

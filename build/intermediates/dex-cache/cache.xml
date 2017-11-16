@@ -48,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/sys1059/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.8.6/15704449e14f67a1c598bc60cc3d138995f2775/libphonenumber-8.8.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="015704449e14f67a1c598bc60cc3d138995f2775">
+        <dex dex="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/transforms/dex/debug/folders/1000/10/libphonenumber-8.8.6_c57ccb6a47b0a21c1201f763f878dccb195be3e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/media/sys1059/backup/PracticeExamples/RuntimePermissions/Way2Verify_New/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"

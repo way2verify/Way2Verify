@@ -8,14 +8,12 @@
 No need to clone the repository or download any files -- just add this line to your app's build.gradle inside the dependencies section:
 
 
-        compile 'sun.way2online.way2verify:way2verify:0.0.45'
+        compile 'sun.way2online.way2verify:way2verify:1.0.1'
 
-Note: We recommend that you don't use
+Note: We recommend  you to use
 
 
-        compile 'sun.way2online.way2verify:way2verify:+'
-
-  as future versions of the SDK may not maintain full backwards compatibility. When such a change occurs, a major version number change will accompany it.
+        compile 'sun.way2online.way2verify:way2verify:1.+'
 
 # Usage :
 
@@ -27,7 +25,7 @@ with context and token  as parameters, if you want to use Library's THEME and CO
 
 
         Way2VerifyLib.initialize(MainActivity.this,token);
-    
+
 
 
  here Token is YOUR_TOKEN which you will get once you registered with http://way2verify.com site with your app.

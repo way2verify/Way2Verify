@@ -41,21 +41,20 @@ To generate your token please do follow the below steps:
 
 # Usage :
 
-By calling library's method "Way2VerifyLib.initialize(Context context, String token,int YOUR_LOGO,String "YOUR_THEME_COLOR", String "YOUR_TEXT_COLOR");"
-in your appliction where you want to verify the user mobile number with OTP.
+To open Mobile verification Screen, place below code in your application where ever you need
 
      Way2VerifyLib.initialize(YOUR_CONTEXT,"YOUR_TOKEN","YOUR_LOGO","YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
 
 
-     here YOUR_CONTEXT is your application context
+      YOUR_CONTEXT is your application context
 
-     here YOUR_TOKEN is your registered application token from http://way2verify.com
+      YOUR_TOKEN is your registered application token from http://way2verify.com
 
-     here YOUR_LOGO is the Image resource id, you want to display in login screen(Ex: R.mipmap.ic_launcher).
+      YOUR_LOGO is the Image resource id, you want to display in login screen(Ex: R.mipmap.ic_launcher).
 
-     here YOUR_THEME_COLOR is your application theme color(Ex: "#e35657").
+      YOUR_THEME_COLOR is your application theme color(Ex: "#e35657").
 
-     here YOUR_TEXT_COLOR is the text color you need to display on button text(Ex: "#ffffff").
+      YOUR_TEXT_COLOR is the text color you need to display on button text(Ex: "#ffffff").
 
 
 
@@ -85,12 +84,6 @@ MainActivity extends AppCompatActivity implements Way2LoginCallbacks
             //TODO for close action.
                 ...Redirect Accordingly
             }
-
-# Screenshots
-
-[![login ](https://github.com/way2verify/Way2Verify/blob/master/screens/login_screen.png)](https://github.com/way2verify/Way2Verify/blob/master/screens/login_screen.png)
-[![otp](https://github.com/way2verify/Way2Verify/blob/master/screens/otp_screen.png)](https://github.com/way2verify/Way2Verify/blob/master/screens/otp_screen.png)
-
 # Note
 
     It is mandatory to use google play serveices minimum 11.0.1 or higher version in your application.
@@ -98,6 +91,14 @@ MainActivity extends AppCompatActivity implements Way2LoginCallbacks
 
        compile 'com.google.android.gms:play-services:11.0.1'
 
+
+
+
+
+# Screenshots
+
+[![login ](https://github.com/way2verify/Way2Verify/blob/master/screens/login_screen.png)](https://github.com/way2verify/Way2Verify/blob/master/screens/login_screen.png)
+[![otp](https://github.com/way2verify/Way2Verify/blob/master/screens/otp_screen.png)](https://github.com/way2verify/Way2Verify/blob/master/screens/otp_screen.png)
 
 
 By using Way2Verify library you can verify the user mobile number with OTP.

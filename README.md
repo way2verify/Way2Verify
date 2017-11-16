@@ -72,6 +72,10 @@ implement  Way2LoginCallbacks so that Callback methods will be overriden and can
                     ...Redirect Accordingly
                 }
 
+# Screenshots
+
+[![login ](https://github.com/way2verify/Way2Verify/blob/master/screens/login_screen.png)](https://github.com/way2verify/Way2Verify/blob/master/screens/login_screen.png)
+[![otp](https://github.com/way2verify/Way2Verify/blob/master/screens/otp_screen.png)](https://github.com/way2verify/Way2Verify/blob/master/screens/otp_screen.png)
 
 # Note
 

@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
-import sun.way2online.way2verify.Activities.LoginActivity;
 import sun.way2online.way2verify.Listeners.Way2LoginCallbacks;
 import sun.way2online.way2verify.Way2VerifyLib;
 
@@ -37,7 +35,6 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
     @Override
     public void onLoginSuccess(String ContryCode, String mobileNum) {
         Toast.makeText(this, "onLoginSuccess", Toast.LENGTH_SHORT).show();
-
         startActivity(new Intent(this,SuccessScreenActivity.class));
     }
 

@@ -8,7 +8,10 @@
 No need to clone the repository or download any files -- just add this line to your app's build.gradle inside the dependencies section:
 
 
-        compile 'sun.way2online.way2verify:way2verify:1.0.1'
+        compile 'sun.way2online.way2verify:way2verify:1.0.2'
+
+                            (or)
+        implementation 'sun.way2online.way2verify:way2verify:1.0.2' if you are using Android Studio 3.0
 
 Note: We recommend  you to use
 

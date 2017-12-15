@@ -1,11 +1,12 @@
 package com.example.way2verifytesting;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 import sun.way2online.way2verify.Listeners.Way2LoginCallbacks;
 import sun.way2online.way2verify.Way2VerifyLib;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements Way2LoginCallback
             public void onClick(View v) {
                // Appfile app = new Appfile(MainActivity.this);
                // app.onLoginFailure();
-                Way2VerifyLib.initialize(getApplicationContext(),token,R.mipmap.ic_launcher,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
+                Way2VerifyLib.login(getApplicationContext(),token,R.mipmap.ic_launcher,"YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
                // Way2VerifyLib.initialize(MainActivity.this,token);
             }
         });

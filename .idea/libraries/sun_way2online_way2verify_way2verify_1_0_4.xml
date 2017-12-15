@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="sun.way2online.way2verify:way2verify-1.0.4">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/ff5661e30faef63add918fcc542df69511d929bc/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/ff5661e30faef63add918fcc542df69511d929bc/output/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/way2verify-1.0.4.aar/ea2b85fabf11f22623f3078b69c27ffd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/way2verify-1.0.4.aar/ea2b85fabf11f22623f3078b69c27ffd/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

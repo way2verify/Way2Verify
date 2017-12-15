@@ -18,8 +18,12 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        try{
+            Way2VerifyLib.initialize(getApplicationContext(),token);
+        }catch (Exception e){
+        
+        }
 
-        Way2VerifyLib.initialize(getApplicationContext(),token);
 
         new Handler().postDelayed(new Runnable() {
 

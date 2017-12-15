@@ -8,10 +8,10 @@
 No need to clone the repository or download any files -- just add this line to your app's build.gradle inside the dependencies section:
 
 
-        compile 'sun.way2online.way2verify:way2verify:1.0.2'
+        compile 'sun.way2online.way2verify:way2verify:1.0.4'
 
                             (or)
-        implementation 'sun.way2online.way2verify:way2verify:1.0.2' if you are using Android Studio version 3.0
+        implementation 'sun.way2online.way2verify:way2verify:1.0.4' if you are using Android Studio version 3.0
 
 Note: We recommend  you to use
 
@@ -44,9 +44,19 @@ To generate your token please do follow the below steps:
 
 # Usage :
 
+To initiate our library, place the below code at initial activity of your application(ex: splash activity). without initialization "login()" call doesn't work.
+
+ Way2VerifyLib.initialize(YOUR_CONTEXT,"YOUR_TOKEN");
+
+
+  YOUR_CONTEXT is your application context
+
+  YOUR_TOKEN is your registered application token from http://way2verify.com
+
+
 To open Mobile verification Screen, place below code in your application where ever you need
 
-     Way2VerifyLib.initialize(YOUR_CONTEXT,"YOUR_TOKEN","YOUR_LOGO","YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
+     Way2VerifyLib.login(YOUR_CONTEXT,"YOUR_TOKEN","YOUR_LOGO","YOUR_THEME_COLOR","YOUR_TEXT_COLOR");
 
 
       YOUR_CONTEXT is your application context
@@ -63,7 +73,7 @@ To open Mobile verification Screen, place below code in your application where e
 
 
 
-implement Way2LoginCallbacks in the same Activity where you are calling above initialize method, so that Callback methods will be overriden and you can redirect the user accourdingly with success, failure and close functions accordingly.
+implement Way2LoginCallbacks in the same Activity where you are calling above login() method, so that Callback methods will be overriden and you can redirect the user accourdingly with success, failure and close functions accordingly.
 
 
 MainActivity extends AppCompatActivity implements Way2LoginCallbacks
